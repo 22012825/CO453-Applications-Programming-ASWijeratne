@@ -7,11 +7,45 @@ namespace ConsoleAppProject.App01
     /// </summary>
     public enum DistanceUnits
     {
-        [Display(Name = "No Unit")]
-        NoUnit,
+        [Display(Name = "Distance Converter")]
+
+
+
+
+
+
+
+
+
+
+
+    public void Run()
+    
+        private void EnterUnit() (15)
+    {
+        Console.Write("")
+
+
+
+    }
+
+    ]
+        
         Feet,
         Metres,
         Kilometres,
-        Miles
+        Miles,
+    
+
+    private void Input feet
     }
+
+
+
+
+
+
+
+
+    
 }
