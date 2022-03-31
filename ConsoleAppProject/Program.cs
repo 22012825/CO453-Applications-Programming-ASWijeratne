@@ -1,7 +1,4 @@
-﻿using ConsoleAppProject.App01;
-using ConsoleAppProject.App03;
-using ConsoleAppProject.Helpers;
-using System;
+﻿using System;
 
 namespace ConsoleAppProject
 {
@@ -13,17 +10,15 @@ namespace ConsoleAppProject
     /// This Project has been modified by:
     /// Amie Shanaya Wijeratne 22012825 05/02/2022
     /// </summary>
- 
-    {
+    public static class Program
+    { 
         public static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            Console.WriteLine();
             Console.WriteLine("    BNU CO453 Applications Programming 2021-2022! ");
-            Console.WriteLine("        by Amie                                 ");
-            Console.WriteLine(" =================================================");
-            Console.WriteLine();
+            Console.WriteLine("        by Amie   ");
+            Console.Beep();
 
             DistanceConverter converter = new DistanceConverter();
             converter.Run();
