@@ -10,7 +10,7 @@ namespace ConsoleAppProject.App04
     /// Other data, such as author and time, are also stored.
     ///</summary>
     /// <author>
-    /// Michael Kölling and David J. Barnes
+    /// By Amie Shanaya Wijeratne
     /// @version 0.1
     /// </author>
     public class PhotoPost
@@ -51,39 +51,6 @@ namespace ConsoleAppProject.App04
 
             likes = 0;
             comments = new List<String>();
-        }
-
-
-        ///<summary>
-        /// Record one more 'Like' indication from a user.
-        ///</summary>
-        public void Like()
-        {
-            likes++;
-        }
-
-
-        ///<summary>
-        /// Record that a user has withdrawn his/her 'Like' vote.
-        ///</summary>
-        public void Unlike()
-        {
-            if (likes > 0)
-            {
-                likes--;
-            }
-        }
-
-
-        ///<summary>
-        /// Add a comment to this post.
-        ///</summary>
-        /// <param name="text">
-        /// The new comment to add.
-        /// </param>
-        public void AddComment(String text)
-        {
-            comments.Add(text);
         }
 
 
