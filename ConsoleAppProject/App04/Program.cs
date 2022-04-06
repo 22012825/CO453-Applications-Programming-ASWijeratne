@@ -23,10 +23,21 @@ namespace ConsoleAppProject
             int choiceNo = ConsoleHelper.SelectChoice(choiceNo);
 
             if (choiceNo == 1)
+            {
+                converter.ConvertDistance();
+            }
+            else if (choiceNo == 2)
+            {
+                calculator.CalculateIndex();
+            }
+            else if (choiceNo == 3)
+            {
 
-
-
-
+            }
+            else if (choiceNo == 4)
+            {
+            }
+            else Console.WriteLine("Invalid Choice!");
 
         }
     }

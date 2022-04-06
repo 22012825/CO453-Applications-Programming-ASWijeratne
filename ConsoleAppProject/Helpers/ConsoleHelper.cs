@@ -125,7 +125,7 @@ namespace ConsoleAppProject.Helpers
 
             Console.WriteLine("\n ---------------------------------");
             Console.WriteLine($"    {heading}          ");
-            Console.WriteLine("     by Derek Peacock           ");
+            Console.WriteLine("     by Amie Shanaya Wijeratne 22012825           ");
             Console.WriteLine(" ---------------------------------" +
                 "\n");
 
