@@ -1,4 +1,7 @@
-﻿//create the ball, playerPaddle and computerPaddle as sprite objects
+﻿<title>2D Ping Pong Game </title>
+
+
+//create the ball, playerPaddle and computerPaddle as sprite objects
   var ball = createSprite(200, 200, 10, 10);
   var playerPaddle = createSprite(203, 377, 40, 10);
   var computerPaddle = createSprite(200, 25, 40, 10);
@@ -52,7 +55,7 @@ goal2.shapeColor = 'Blue';
         playSound("sound://category_tap/negative_select_1.mp3", false);
 
     }
-    if (ball.isTouching(playerPaddle))
+    if (ball.isTouching(playerPaddle)) 
     {
         playSound("sound://default.mp3", false);
         ball.velocityX - 1;
@@ -149,8 +152,7 @@ goal2.shapeColor = 'Blue';
         fill("Yellow");
         text("Game Over!", 120, 260);
         fill("Yellow");
-        text("Press 'R' to restart   ", 123, 130);
-
+        text("Press 'R' to restart", 123, 130);
     }
     if (keyDown("R") && gameState === "over")
     {
@@ -182,5 +184,5 @@ function reset()
     ball.x = 200;
     ball.y = 200;
     ball.velocityX = 0;
-    ball.velocityY = 0;
+    ball.velocityY = 0; 
 }
